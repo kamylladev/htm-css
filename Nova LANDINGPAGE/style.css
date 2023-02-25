@@ -1,0 +1,124 @@
+body{  background: linear-gradient( to bottom, #360054 ,#96889E );
+color: white;
+ 
+ 
+max-width: 1200px;
+margin: 0 auto;
+padding: 15px;
+
+bac
+}
+
+
+
+ 
+header{ display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+#title{
+flex-direction: column;
+line-height: 10px;
+
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white
+}
+ a:hover{
+    color: #e100ff;
+    transition: 0.3s all;
+ }
+
+
+
+ .ins{ 
+
+    border: 2px solid  #e100ff;
+    padding: 10px;
+    border-radius: 20px;
+ }
+
+
+.ins:hover{
+    color: #fff3fe;
+    background-color: blueviolet;
+}
+
+
+
+h1{ 
+    font-weight: 200px;
+}
+
+main{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+
+h2{ font-size: 56px;
+line-height: 10px;
+}
+
+span{
+    color: blueviolet;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img{
+    width: 580px;
+}
+
+
+
+.sub{ background-color: rgb(21, 9, 32);
+height: 50px;
+width: 50%;
+color: white;
+font-weight: bold;
+}
+
+
+.sub:hover{cursor: pointer;
+    }
+
+
+
+form{
+
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+ 
+
+
+
+
+input{ margin-top: 20px;
+    height: 20px;
+padding: 15px;
+border-radius: 20px;
+border: none;
+font-size: 15ox;
+
+}
